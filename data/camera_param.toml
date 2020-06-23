@@ -1,0 +1,132 @@
+[General]
+sensor_id = "DUALZENSE_L"
+n_camera = 2
+smoothing_filter = 1
+capture_frames = 20
+set_roll = 0.0
+set_pitch = 0.0
+set_yaw = -15.0
+
+[Selection]
+pcl_cutoff_dist = 1.1
+target_max_dist = 0.85
+target_min_dist = 0.3
+target_min_len = 0.3
+target_max_len = 0.4
+target_max_tilt = 30.0
+
+[Camera0]
+camera_name = "camera_l"
+serial_no = "PD71A1EGD8280014P"
+range1 = 0
+range2 = 2
+rgb_image = -1
+height = 480
+width = 640
+fx = 624.406982422
+fy = 624.155578613
+cx = 335.725189209
+cy = 242.80821228
+rot_angle_roll = 0.0
+rot_angle_pitch = 0.0
+rot_angle_yaw = 0.0
+translation_x = 0.0
+translation_y = 0.0
+translation_z = 0.0
+tx = -0.0186709416532
+ty = 0.094158368049
+tz = -0.00513825607603
+rx = 14.9231633414
+ry = 0.484041472486
+rz = 89.9535952969
+
+[Camera0_Factory]
+fx = 624.406982422
+fy = 624.155578613
+cx = 335.725189209
+cy = 242.80821228
+p1 = -0.000532481062692
+p2 = -0.00110711832531
+k1 = -0.124605514109
+k2 = 0.132828116417
+k3 = 0.0216029603034
+k4 = 0.13571369648
+k5 = 0.0328321754932
+k6 = 0.101191550493
+
+[Camera0_Undistortion]
+flag = false
+undistortion_params_h5 = ""
+yz_grid_scale = 0.025
+x_grid_scale = 0.01
+x_min = 0.0
+x_max = 1.2
+y_min = -0.81
+y_max = 0.81
+z_min = -0.81
+z_max = 0.81
+
+[Camera1]
+camera_name = "camera_r"
+serial_no = "PD71A1EGD8280151P"
+range1 = 0
+range2 = 2
+rgb_image = -1
+height = 480
+width = 640
+fx = 625.838134766
+fy = 625.345947266
+cx = 336.288879395
+cy = 226.770614624
+rot_angle_roll = -0.136874877569
+rot_angle_pitch = 0.0136962825993
+rot_angle_yaw = 29.7541203055
+translation_x = 0.0105893399103
+translation_y = -0.0377995872899
+translation_z = -0.000271855684665
+tx = 0.0205794589575
+ty = 0.0944823457966
+tz = -0.00570209546732
+rx = -14.8299075151
+ry = 0.435557453157
+rz = 90.0823302496
+
+[Camera1_Factory]
+fx = 625.838134766
+fy = 625.345947266
+cx = 336.288879395
+cy = 226.770614624
+p1 = -0.000610783987213
+p2 = -0.000483633135445
+k1 = -0.118157736957
+k2 = 0.289853870869
+k3 = -0.160573810339
+k4 = 0.137047633529
+k5 = 0.220362618566
+k6 = -0.106260888278
+
+[Camera1_Undistortion]
+flag = false
+undistortion_params_h5 = ""
+yz_grid_scale = 0.025
+x_grid_scale = 0.01
+x_min = 0.0
+x_max = 1.2
+y_min = -0.81
+y_max = 0.81
+z_min = -0.81
+z_max = 0.81
+
+[Rgb]
+device_id = "/dev/v4l/by-id/usb-e-con_Systems_See3CAM_CU20_10100704-video-index0"
+width = 1280
+height = 720
+fps = 30
+fx = 892.355387846
+fy = 886.22569205
+cx = 601.524408878
+cy = 363.548793664
+k1 = 0.0451280855451
+k2 = 0.0073135133449
+k3 = 4.34620702892e-5
+k4 = -0.0212099074
