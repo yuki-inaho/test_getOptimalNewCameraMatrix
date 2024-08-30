@@ -6,7 +6,7 @@ authors = ["Yuki Yoshikawa <yoshikawa@inaho.co>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-opencv-python = "^4.2.0"
+opencv-python = "^4.8.1"
 pathlib = "^1.0.1"
 toml = "^0.10.1"
 scipy = "^1.5.0"
